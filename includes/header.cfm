@@ -1,3 +1,4 @@
+<cfset today= DateFormat(now(), 'long') />
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,5 +9,11 @@
     <title>Viet ColdFusion 2013</title>
     <!-- Last updated: July 7, 2013 -->
 </head>
-
 <body>
+    <nav>
+    <cfoutput>#today#</cfoutput>&nbsp;|&nbsp;
+    <a href="/vietcf2013/">Home</a>&nbsp;|&nbsp;
+    <a href="http://127.0.0.1:8500/vietcf2013/resources.cfm">Resources</a>&nbsp;|&nbsp;
+    <a href="http://localhost:8500/CFIDE/administrator/" target="_blank">CFAdmin</a>&nbsp;|&nbsp;
+    <a href="http://localhost:8500/learncfinaweek/www/" target="_blank">Learn CF In A Week</a>
+    </nav>
