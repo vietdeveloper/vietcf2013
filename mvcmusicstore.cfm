@@ -12,7 +12,7 @@
 <table>
 <tr><th>ID</th><th>Name</th></tr>
 <cfoutput query="myQuery">
-    <tr><td>#myquery.ArtistID#</td><td>#myquery.Name#</td></tr>
+    <tr><td>#myquery.ArtistID#</td><td><a href="artist-album.cfm?id=#myquery.ArtistID#">#myquery.Name#</a></td></tr>
 </cfoutput>
 </table>
 <cfinclude template="includes/footer.cfm" />
