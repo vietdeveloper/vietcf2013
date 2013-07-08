@@ -13,4 +13,5 @@ Artist: <a href="artist-album.cfm?id=#myQuery.ArtistId#">#myQuery.Artist#</a><br
 Genre: <a href="genre.cfm?id=#myQuery.GenreId#">#myQuery.Genre#</a><br>
 Price: #myQuery.Price#<br>
 </cfoutput>
+<a href="add-album.cfm">Add a new album</a>
 <cfinclude template="includes/footer.cfm" />
